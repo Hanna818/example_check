@@ -1,4 +1,6 @@
 check50:
   checks:
-    - run: python3 hello.py
-      print('Hello, world!')        
+    hello world:
+      - run: python3 hello.py
+        stdout: Hello, world!
+        exit: 0
